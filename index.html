@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shayari Generator</title>
+    <link rel="stylesheet" href="./styleshayari.css">
+</head>
+<body>
+    <header>
+        <h1>Shayari Generator</h1>
+    </header>
+    <main>
+        <div class="generator">
+            <label for="category">Choose a Category:</label>
+            <select id="category">
+                <option value="love">Love</option>
+                <option value="friendship">Friendship</option>
+                <option value="sadness">Sadness</option>
+                <option value="flirting">flirting</option>
+                <option value="romantic">romantic</option>
+                <!-- Add more categories as needed -->
+            </select>
+            <button onclick="generateShayari()">Generate Shayari</button>
+            <div id="shayariDisplay"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Shayari Generator. All rights reserved.</p>
+    </footer>
+    <script src="./scriptshayari.js"></script>
+</body>
+</html>

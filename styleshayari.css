@@ -1,0 +1,72 @@
+/* Basic styles for the website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.generator {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.generator label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.generator select {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.generator button {
+    padding: 8px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.generator button:hover {
+    background-color: #45a049;
+}
+
+#shayariDisplay {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
